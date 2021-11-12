@@ -1,0 +1,56 @@
+.nav{
+	position: fixed;
+	height: 60px;
+	left: 0;
+	background: black;
+	right: 0;
+	top: 0;
+}
+ .navigasi li{
+	display: inline-block;
+	float: right;
+	width: 150PX;
+	text-align: center;
+	margin-top: 4px;
+
+	text-decoration: none;
+	
+}
+.brand li{
+	color: lightblue;
+	float: left;
+	font-size: 30px;
+	list-style-type: none;
+	margin: 10px 1px 0px 5px;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: lightblue;
+}
+.navigasi li a:hover{
+	color: white;
+	font-size:  22px;
+	transition: 0.3s;
+}
+.search{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 5px;
+}
+.fotofoto li {
+	list-style-type: none;
+	display: inline-block;
+	
+}
+body{
+	background-image: url(brooo.jpg);
+	background-size: 1366px 768px;
+	height: 300vh;
+	background-repeat: no-repeat;	
+}
+.fotofoto{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 90px;
+}

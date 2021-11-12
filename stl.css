@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.kkri{
+	width: 300px;
+	height: 660px;
+	background-color: transparent;
+
+}
+.ice{
+	font-size: 70px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 150px;
+	left: 50px;
+}
+body{
+	background-image: url(file:///C:/Users/ASUS/Pictures/Saved%20Pictures/guns.jpg);
+	background-size: cover;
+	margin: 0;
+	padding:0;
+	background-repeat: auto;
+	height: 800px;
+}
+.nav{
+	position: fixed;
+	height: 60px;
+	left: 0;
+	background: black;
+	right: 0;
+	top: 0;
+}
+ .navigasi li{
+	display: inline-block;
+	float: right;
+	width: 150PX;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.brand li{
+	color: lightblue;
+	float: left;
+	font-size: 30px;
+	margin: 10px 1px 10px 0;
+	list-style-type: none;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: lightblue;
+}
+.navigasi li a:hover{
+	color: white;
+	font-size:  22px;
+	transition: 0.3s;
+}
+.search{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 20px;
+}
